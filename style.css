@@ -110,3 +110,21 @@ main {
 .movie:hover .overview {
   transform: translateY(0);
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+button {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+}
